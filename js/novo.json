@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 13.2343,
+        "lat": -8.8368
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299.15,
+        "feels_like": 299.15,
+        "temp_min": 299.15,
+        "temp_max": 299.15,
+        "pressure": 1010,
+        "humidity": 73
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.6,
+        "deg": 260
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1634559066,
+    "sys": {
+        "type": 1,
+        "id": 2173,
+        "country": "AO",
+        "sunrise": 1634532153,
+        "sunset": 1634576491
+    },
+    "timezone": 3600,
+    "id": 2240449,
+    "name": "Luanda",
+    "cod": 200
+}
