@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+          <a href="#" class="navbar-brand">Weather.35</a>
+        </div>
+  </nav>
+  <div class="container searchContainer">
+      <div class="search card card-body">
+          <h1>Get the Weather for a location</h1>
+          <p class="head">Enter your location</p>
+          <input type="text" class="form-control" id="searchUser">
+      </div>
+      <br>
+      <div id="profile"></div>
+  </div> 
+  <div class="container text-center mt-2">
+      <button class="btn btn-primary" id="submit">Submit</button>
+    </div> 
+    <div id="content"></div>
+    <footer class="mt-5 p-3 text-center bg-light">
+        Wearher.js &copy;
+    </footer>
+
+    
+</body>
+<script src="./js/fetch.js"></script>
+<script src="./js/ui.js"></script>
+<script src="./js/app.js"></script>
+</html>
